@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+body{
+  background-color: black;
+  color: white;
+  /* background-image: url(https://as1.ftcdn.net/v2/jpg/03/23/88/08/1000_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg); */
+  background-image: url(https://e0.pxfuel.com/wallpapers/142/824/desktop-wallpaper-gamer-black-and-white-gaming.jpg);
+  
+  /* background-image: url(https://media.istockphoto.com/id/1164222265/pt/vetorial/digital-technology-gaming-abstract-background.jpg?s=170667a&w=0&k=20&c=tNVrtNyzexpNs--sHPhpNPJuUdGnpnCNx5qSB6IE91A=); */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.creditos{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: -90px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabelaJogo{
+  width: 100%;
+  height: 600px;
 }

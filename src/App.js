@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState, useEffect } from "react";
+import { get } from "./componentes/preguntas/fetch";
+import ReactDOM from "react-dom";
+import Navbar from "./componentes/navbar/navbar";
+import Jogo from "./componentes/jogo.js";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="tabelaJogo">
+
+      <Jogo />
+      </div>
+    </>
   );
 }
 

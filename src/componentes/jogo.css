@@ -1,0 +1,66 @@
+.respostasbox{
+    display: flex;
+    flex-direction: column;
+   
+    width:100% ;
+}
+.tabelajogo{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.boxpreg{
+    margin-top: 50px;
+    width:60%;
+    background-color: rgb(34, 34, 34);
+    box-shadow:  #AF73BF 0px -12px 30px, #486CD9 0px 4px 6px, #486CD9 0px 12px 13px, #486CD9 0px -3px 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.fimbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    box-shadow:  #AF73BF 0px -12px 30px, #486CD9 0px 4px 6px, #486CD9 0px 12px 13px, #486CD9 0px -3px 5px;
+    padding: 20px;
+    border-radius: 20px;
+
+    margin-top: 50px;
+    width:60%;
+    margin-bottom: 50px;
+}
+.fimbox img{
+    width: 35%;
+}
+.fimcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.falhoubox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    box-shadow:  #AF73BF 0px -12px 30px, #486CD9 0px 4px 6px, #486CD9 0px 12px 13px, #486CD9 0px -3px 5px;
+    padding: 20px;
+    border-radius: 20px;
+
+    margin-top: 50px;
+    width:60%;
+    margin-bottom: 50px;
+}
+.falhoubox img{
+    width: 35%;
+}
+.falhoucont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

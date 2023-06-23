@@ -1,0 +1,34 @@
+.cont1{
+  margin: 10px;
+}
+.navbar{
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 20px;
+  
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  border-radius: 20px;
+    height: 105px;
+    
+    width: 100%;
+  }
+  .navbar img{
+    /* margin-left: 10px; */
+    border-radius: 10px;
+  /* box-shadow: rgb(255, 255, 255) 0px 5px 15px; */
+  /* box-shadow:  #AF73BF 0px 2px 4px, #486CD9 0px 7px 13px -3px, #AF73BF 0px -3px 0px inset; */
+  box-shadow:  #AF73BF 0px -12px 30px, #486CD9 0px 4px 6px, #486CD9 0px 12px 13px, #486CD9 0px -3px 5px;
+    height: 100%;
+    width: 100%;
+    
+    
+  }
+  #carrito{
+    width: 75%;
+    margin: 10px;
+    height: 75%;
+  }
+  
